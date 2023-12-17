@@ -1,8 +1,8 @@
-// define relevant letiables
-let canvas = document.getElementById("canvas");
-let ctx = canvas.getContext('2d');
-let dragging = false;
-let pos = { x: 0, y: 0 };
+// define relevant variables
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext('2d');
+var dragging = false;
+var pos = { x: 0, y: 0 };
 
 
 // define event listeners for both desktop and mobile
@@ -129,4 +129,4 @@ async function predictModel(){
 }
 
 // loads the model
-let model = loadModel()
+var model = loadModel()

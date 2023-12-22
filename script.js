@@ -86,6 +86,7 @@ function draw(e) {
 // clear canvas
 function erase() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
+  document.getElementById('result').innerHTML = "Prediction: "
 }
 
 
